@@ -2,7 +2,7 @@ name: Threadify Bot Automation
 
 on:
   schedule:
-    - cron: '30 18 * * *'  # Runs daily at 06:28 UTC
+    - cron: '30 18 * * *'  # Runs daily at 06:30 PM UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
