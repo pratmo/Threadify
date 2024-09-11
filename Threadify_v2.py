@@ -236,8 +236,8 @@ def post_images_to_twitter(image_files):
         except Exception as e:
             print(f"Failed to tweet {image_file}: {e}")
 
-        # Wait 20 seconds before posting the next image
-        time.sleep(20)
+        # Wait 15 minutes before posting the next image
+        time.sleep(900)
 
 # Function to scan all subreddits
 def scan_all_subreddits():
