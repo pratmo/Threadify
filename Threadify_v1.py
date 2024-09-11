@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw, ImageFont
 import tweepy
 
 # Define font path and base font size
-font_path = "Poppins-BoldItalic.ttf"  # Update to relative path if needed
+font_path = "fonts/Poppins-BoldItalic.ttf"  # Update to relative path if needed
 base_font_size = 80  # Adjust based on image size
 
 # Define text and shadow colors
