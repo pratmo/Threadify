@@ -14,7 +14,7 @@ An auto twitter bot for transforming reddit threads into eye catching images.
 
 So currently set to 30:18 meaning 6.30 pm.
 
-2. In code, the sleep time between posts is set to 900 which is 15 minutes. So after posting 1st image, we will wait for 15 min to post next image and so on.
+2. In code, the sleep time between posts is set to 60 which is 1 minute. So after posting 1st image, we will wait for 1 min and then post the next image and so on.
 
 3. In code, post clearing or emptying the output folder and before generating all images, we are waiting for 20 seconds.
 
