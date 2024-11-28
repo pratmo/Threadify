@@ -176,7 +176,7 @@ def scan_subreddit(subreddit_name):
             continue  # Move to the next post
 
         top_post.comment_sort = 'top'
-        top_post.comment_limit = 20
+        top_post.comment_limit = 10
         top_post.comments.replace_more(limit=0)
 
         # Filter comments based on length constraints, excluding specific users, URLs, and GIFs
