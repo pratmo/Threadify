@@ -25,11 +25,20 @@ Currently, contributions to this repository are on hold, but the code is designe
 - PIL (Pillow) for creating and manipulating images: Pillow==9.4.0
 - Tweepy for accessing twitter/X API: tweepy==4.14.0
 
-### Other Notes
+### Code Notes
 
-- Use Python 3.x
+- Used Python 3.x
 
 - In .yml cron is setup to run daily at 6:30 PM UTC. It can also be manually triggered.
 
 - In .py modify the wait time post emptying the output folder before generating images, the time gap between consecutive image postings, among other customizable parameters like fonts, number of comments, etc., which is self-explanatory through code comments.
 
+### Acknowledgments
+[freeCodeCamp](https://www.freecodecamp.org/)
+
+[GeeksforGeeks](https://www.geeksforgeeks.org/)
+
+[ExcelR Solutions](https://www.excelr.com/)
+
+### Contact
+Should you have any questions or require assistance, please feel free to reach out to me at [mailtothedeveloper@gmail.com](mailtothedeveloper@gmail.com).
