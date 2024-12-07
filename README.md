@@ -27,7 +27,7 @@ Currently, _contributions_ to this repository are on hold, but the code is desig
 
 ### Code Notes
 
-- Used Python 3.x
+- Use Python 3.x
 
 - In .yml cron is setup to run daily at 6:30 PM UTC. It can also be manually triggered.
 
