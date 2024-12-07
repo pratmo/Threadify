@@ -9,6 +9,17 @@ Currently, contributions to this repository are on hold, but the code is designe
 
 ![](https://github.com/pratmo/Threadify/blob/main/Sample.png?raw=true)
 
+## Features
+- **Custom Font Selection:** Choose any font from Google Fonts, complete with an added shadow effect for enhanced text visibility.
+- **Subreddit-Specific Backgrounds:** Define and create custom background images tailored to your selected subreddit, allowing for a unique visual experience.
+- **Personalized Title Colors:** Assign distinct title colors for each subreddit to improve readability and aesthetic appeal.
+- **Comment Filtering:** Select and filter the number of comments displayed, ensuring only the most relevant content is included.
+- **Content Exclusions:** Automatically exclude GIFs, users such as moderators and bots, as well as emojis and URLs, to maintain a clean and focused output.
+- **Credit Attribution:** Include the username in the final image to provide proper credits to the original content creators.
+- **Output Management:** Automatically clear the output folder after each run to save storage space and maintain organization.
+- **Concise Content Presentation:** Skip lengthy titles and comments to keep the image quotes concise and impactful.
+- **Automated Post Looping:** Seamlessly loop through the top posts of the day, ensuring the most current and popular content is featured.
+
 ### Parameters
 1. In .yml change the UTC time as to when you want this workflow to be deployed automatically.
 
