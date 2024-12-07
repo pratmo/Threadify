@@ -1,4 +1,4 @@
-# Threadify
+## Threadify
 Threadify is an innovative twitter/X bot that transforms trending soccer comments from various subreddits into visually appealing quote images, which are then shared on Twitter. This project was driven by a desire to engage soccer fans who may not frequent Reddit, allowing them to enjoy insightful opinions and discussions from the Reddit community.
 
 In 2023, Reddit boasted 70 million daily active users, while twitter/X had an impressive 220 million, highlighting a significant opportunity to bridge these platforms. As a former soccer enthusiast who enjoyed watching English Premier League matches on weekends, I recognized the potential to bring Reddit's vibrant and funny post-match commentary to a broader audience on twitter/X. The primary challenge of this project was to create an automated Twitter bot using entirely free resources, ensuring zero expenses were incurred throughout the development process. The project was successfully deployed with over 2600 automated posts in just a few months. The bot account is here: [https://x.com/Opinions433](https://x.com/Opinions433)
@@ -9,7 +9,7 @@ Currently, contributions to this repository are on hold, but the code is designe
 
 ![](https://github.com/pratmo/Threadify/blob/main/Sample.png?raw=true)
 
-## Features
+### Features
 - **Custom Font Selection:** Choose any font from Google Fonts, complete with an added shadow effect for enhanced text visibility.
 - **Subreddit-Specific Backgrounds:** Define and create custom background images tailored to your selected subreddit, allowing for a unique visual experience.
 - **Personalized Title Colors:** Assign distinct title colors for each subreddit to improve readability and aesthetic appeal.
@@ -20,7 +20,7 @@ Currently, contributions to this repository are on hold, but the code is designe
 - **Concise Content Presentation:** Skip lengthy titles and comments to keep the image quotes concise and impactful.
 - **Automated Post Looping:** Seamlessly loop through the top posts of the day, ensuring the most current and popular content is featured.
 
-## Main Tech/Packages
+### Main Tech/Packages
 - PRAW for reddit API: praw==7.7.1
 - PIL (Pillow) for creating and manipulating images: Pillow==9.4.0
 - Tweepy for accessing twitter/X API: tweepy==4.14.0
