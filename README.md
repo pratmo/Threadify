@@ -7,7 +7,7 @@ The source code is available for reuse, and while giving credit to this reposito
 
 Currently, contributions to this repository are on hold, but the code is designed to be self-explanatory. Should you have any questions or require assistance, please feel free to reach out to me at mailtothedeveloper@gmail.com.
 
-![](https://raw.githubusercontent.com/pratmo/Threadify/blob/main/Sample.png)
+![](https://github.com/pratmo/Threadify/blob/main/Sample.png?raw=true)
 
 ### Parameters
 1. In .yml change the UTC time as to when you want this workflow to be deployed automatically.
