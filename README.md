@@ -25,23 +25,11 @@ Currently, contributions to this repository are on hold, but the code is designe
 - PIL (Pillow) for creating and manipulating images: Pillow==9.4.0
 - Tweepy for accessing twitter/X API: tweepy==4.14.0
 
-### Parameters
-1. In .yml change the UTC time as to when you want this workflow to be deployed automatically.
+### Other Notes
 
-┌───────────── minute (0 - 59)
-│ ┌───────────── hour (0 - 23)
-│ │ ┌───────────── day of the month (1 - 31)
-│ │ │ ┌───────────── month (1 - 12)
-│ │ │ │ ┌───────────── day of the week (0 - 7) (Sunday to Saturday, 7 is also Sunday)
-│ │ │ │ │
-* * * * *
+- Use Python 3.x
 
-So currently set to 30:18 meaning 6.30 pm.
+- In .yml cron is setup to run daily at 6:30 PM UTC. It can also be manually triggered.
 
-2. In code, the sleep time between posts is set to 60 which is 1 minute. So after posting 1st image, we will wait for 1 min and then post the next image and so on.
+- In .py modify the wait time post emptying the output folder before generating images, the time gap between consecutive image postings, among other customizable parameters like fonts, number of comments, etc., which is self-explanatory through code comments.
 
-3. In code, post clearing or emptying the output folder and before generating all images, we are waiting for 20 seconds.
-
-4. In code, you may change the subreddits, the color of the title font, no. of comments etc. The code has been commented so no issues.
-
-5. More queries, feel free to reach out to me - mailtothedeveloper@gmail.com / prathikmohan@yandex.com
