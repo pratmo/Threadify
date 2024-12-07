@@ -20,6 +20,11 @@ Currently, contributions to this repository are on hold, but the code is designe
 - **Concise Content Presentation:** Skip lengthy titles and comments to keep the image quotes concise and impactful.
 - **Automated Post Looping:** Seamlessly loop through the top posts of the day, ensuring the most current and popular content is featured.
 
+## Main Tech/Packages
+- PRAW for reddit API: praw==7.7.1
+- PIL (Pillow) for creating and manipulating images: Pillow==9.4.0
+- Tweepy for accessing twitter/X API: tweepy==4.14.0
+
 ### Parameters
 1. In .yml change the UTC time as to when you want this workflow to be deployed automatically.
 
